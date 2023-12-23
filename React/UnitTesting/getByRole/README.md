@@ -8,7 +8,7 @@ In this example, we will Unit Test a React component using the function getByRol
 
 - Change directory `cd demo-get-by-role`
 
-- Create file `DemoGetByRole.js`. Note that the component contain three different buttons.
+- Create file `DemoGetByRole.js` in the `src` folder. Note that the component contain three different buttons.
 
 ```js
 const DemoGetByRole = () => (
@@ -22,7 +22,7 @@ const DemoGetByRole = () => (
 export default DemoGetByRole;
 ```
 
-- Create file `DemoGetByRole.test.js`. The unit test will find second button.
+- Create file `DemoGetByRole.test.js` in the `scr` folder. The unit test will find second button.
 
 ```js
 import '@testing-library/jest-dom';

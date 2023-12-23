@@ -8,7 +8,7 @@ In this example, we will Unit Test a React component using the function getByTes
 
 - Change directory `cd demo-get-by-test-id`
 
-- Create file `DemoGetByTestId.js`.Note that the div contains the attribue `data-testid="current-selection"`.
+- Create file `DemoGetByTestId.js` in the `scr` folder. Note that the div contains the attribue `data-testid="current-selection"`.
 
 ```js
 const DemoGetByTestId = () => (
@@ -18,7 +18,7 @@ const DemoGetByTestId = () => (
 export default DemoGetByTestId;
 ```
 
-- Create file `DemoGetByTestId.test.js`. The unit test will find the div using the attribue `data-testid="current-selection"` and confirm the text contains the word "fred".
+- Create file `DemoGetByTestId.test.js` in the `src` folder.  The unit test will find the div using the attribue `data-testid="current-selection"` and confirm the text contains the word "fred".
 
 ```js
 import '@testing-library/jest-dom';
