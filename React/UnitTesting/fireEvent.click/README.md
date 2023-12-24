@@ -10,6 +10,6 @@ The React Component is a simple component with a button that incremens a counter
 - Change directory `cd demo-fire`
 - Create the file `DemoFireEvent.js` in the `src` directory.
 [DemoFireEvent.js](DemoFireEvent.js)
-- Create the file `DemoFireEvent.test,js` in the `src` directory. The unit test will await for the result of the promise.
+- Create the file `DemoFireEvent.test.js` in the `src` directory. The unit test will await for the result of the promise.
 [DemoFireEvent.test.js](DemoFireEvent.test.js)
 - Run the tests `npm test`
